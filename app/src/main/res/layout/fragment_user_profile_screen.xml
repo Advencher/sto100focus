@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="focus.application.sto100.UserProfileScreen">
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/constraint_user_profile_layout">
+
+        <EditText
+                android:layout_width="351dp"
+                android:layout_height="59dp"
+                android:autofillHints="@string/edit_birth_date"
+                android:inputType="date"
+                android:hint="@string/edit_birth_date"
+                android:ems="10"
+                android:id="@+id/dateView1"
+                app:layout_constraintStart_toStartOf="@+id/emailTextView1"
+                app:layout_constraintEnd_toEndOf="@+id/emailTextView1" app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        <EditText
+                android:layout_width="352dp"
+                android:layout_height="57dp"
+                android:hint="@string/edit_email"
+                android:autofillHints="@string/edit_email"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/emailTextView1" app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.304" app:layout_constraintHorizontal_bias="0.508"/>
+        <TextView
+                android:text="@string/edit_email"
+                android:layout_width="353dp"
+                android:layout_height="33dp"
+                android:id="@+id/textEmailEdit"
+                app:layout_constraintStart_toStartOf="@+id/emailTextView1"
+                app:layout_constraintEnd_toEndOf="@+id/emailTextView1" app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.246"/>
+        <TextView
+                android:text="@string/edit_birth_date"
+
+                android:layout_width="353dp"
+                android:layout_height="22dp"
+                android:id="@+id/textBirthDateEdit"
+                app:layout_constraintStart_toStartOf="@+id/dateView1"
+                app:layout_constraintEnd_toEndOf="@+id/dateView1" app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.442"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

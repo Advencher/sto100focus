@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "106324682720",
+    "firebase_url": "https://sto100-8bbdc.firebaseio.com",
+    "project_id": "sto100-8bbdc",
+    "storage_bucket": "sto100-8bbdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106324682720:android:dadc767c4edb6743",
+        "android_client_info": {
+          "package_name": "focus.application.sto100"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106324682720-ajp95t4k5chvhobqcilqh31o82u0hond.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_lW0jfiuWUjuSgf6QisIkI6D2cKyySnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106324682720-ajp95t4k5chvhobqcilqh31o82u0hond.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
